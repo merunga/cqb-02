@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+     
+    <div id="container"> <!--Contenedor de secciones--> 
+      <div class="card" id="contenedorComprar"> <!--Divide secciones--> 
+        <header>  
+          <h1 id="hablando">HABLANDO </h1> <h1 id="huevadas">HUEVADAS</h1>  
+          <h2 id="funciones">Funciones en Cusco</h2>
+          <h3 id="jorgeRicardo">Jorge Luna y Ricardo Mendoza</h3>
+        </header>
+        <input type="button" value="COMPRAR" class="redondo" id="comprarEntradas">
+        
+      </div>
+
+     <br> <br>
+
+      <!--Datos de tarjeta -->
+      <div class = "card1" id="contenedorDatos"> 
+        <h2 id="datosComprador">DATOS DEL COMPRADOR</h2>
+        <p id="colocaNumero">Coloca tu número de la tarjeta</p>  <br> 
+        <input type="text" id="numerosIniciales" > 
+        <p id="respuesta"></p> <!--Respuesta: tarjeta válida o no --> 
+        <!-- <p id="numerosFinales"></p> --> 
+
+        <p id="mmaa">MM/AA (Fecha de vencimiento) </p> <input type="text" id="textoMmaa" > <br>
+        <p id="cvv">CVV (3 diditos de verificación) </p><input type="text" id="textoCvv" >
+        <p id="nombre">Nombre y Apellido</p> <br> <input type="text" id="textoNombre">  
+        <p id="correo">Correo electronico</p> <br> <input type="text" id="textoCorreo"> 
+        <button id= "boton" > PAGAR </button> <!-- id de mi boton--> 
+        <input type="button" value="VOLVER" id="volverInicio" > 
+        <!-- <input type="button" value="PAGAR" onclick="datos()"> --> 
+        <!--<button id=" boton" onclick="datos ()"> PAGAR </button> -->
+      
+      </div>
+
+    </div>
+
+    <footer>
+    <h1 id="preventa">Preventa exclusiva</h1>
+    </footer>
+
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

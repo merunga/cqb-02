@@ -1,0 +1,296 @@
+
+body{ 
+    /*background: url("hablando-huevadas-1.jpg"); */
+    background: url("HH1.jpeg");
+}
+
+
+#container .card{
+    background-color: black;
+    border: solid 10px white;
+    margin: 40px auto;
+    padding: 1px;
+    width: 900px;
+    height: 480px;
+    position: absolute center;
+    text-align: center;
+}
+
+
+#hablando{
+    
+    position: absolute;
+    width: 812px;
+    height: 50px;
+    left: 314px;
+    top: 10px;
+
+    font-family: 'Arial black';
+    font-weight: 100;
+    font-size: 90px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+#huevadas{
+    position: absolute;
+    width: 812px;
+    height: 282px;
+    left: 314px;
+    top: 144px;
+
+    font-family: 'Arial black';
+    font-weight: 90;  /*saturación del color de la letra*/
+    font-size: 90px;  /*tamaño de la letra*/
+    line-height: 10px; /*establece distancias entre lineas de texto*/
+    text-align: center;
+    color: red;
+
+}
+
+#funciones{
+    position: absolute center;
+    font-family: 'Curier new';
+    font-weight: 10;
+    font-size: 50px;
+    line-height: 400px;
+    text-align: center;
+    color: white;
+
+
+}
+
+#jorgeRicardo{
+    position: absolute;
+    width: 812px;
+    height: 282px;
+    left: 314px;
+    top: 144px;
+
+    font-family: 'Arial black';
+    font-weight: 90;  /*saturación del color de la letra*/
+    font-size: 40px;  /*tamaño de la letra*/
+    line-height: 400px; /*establece distancias entre lineas de texto*/
+       
+    color: white;
+
+}
+
+#comprarEntradas{
+  
+    position: absolute ;
+    width: 200px;
+    height: 60px;
+    left: 600px;
+    top: 450px;
+
+    font-family: 'Verdana';
+    font-weight: 10;  /*saturación del color de la letra*/
+    font-size: 25px;  /*tamaño de la letra*/
+    /*line-height: 100px;*/
+    border-radius: 20px;
+    color:whitesmoke;
+    
+    background:  #006f65;
+   
+
+}
+
+.card1 {
+    display: none; /*Oculta datos del comprador */
+}
+
+#container .card1{
+    
+    background-color: black;
+    border: solid 10px white;
+    margin: 40px auto;
+    padding: 1px;
+    width: 600px;
+    height: 700px;
+    position: absolute center;
+    text-align: center;
+}
+  
+
+#datosComprador{
+    
+  position: absolute center;
+  top: 100px; /*encima */
+
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 10;
+  font-size: 40px;
+  line-height: 20px;
+  color: #ffb209;
+
+}
+
+#colocaNumero{
+    position: absolute center;
+    top: 100px; /*encima */
+  
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 20px;
+    line-height: 10px;
+    color: white;
+  
+  }
+
+  #numerosIniciales{
+    
+   position: absolute center;
+   width: 250px;
+   height: 30px;
+   left: 550px;
+   top: 100px;
+   background: white;
+  }
+
+#respuesta {
+    position: absolute center;
+    top: 100px; /*encima */
+  
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 20px;
+    line-height: 10px;
+    color: red;
+
+}
+
+#mmaa{
+    position: absolute center;
+    top: 100px; /*encima */
+  
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 20px;
+    line-height: 10px;
+    color: white;
+}
+
+#textoMmaa{
+    
+    position: absolute center;
+    width: 250px;
+    height: 30px;
+    left: 550px;
+    top: 100px;
+    background: white;
+}
+
+#cvv{
+    position: absolute center;
+    top: 100px; /*encima */
+  
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 20px;
+    line-height: 10px;
+    color: white;
+}
+
+#textoCvv{
+    
+    position: absolute center;
+    width: 250px;
+    height: 30px;
+    left: 550px;
+    top: 100px;
+    background: white;
+}
+
+#nombre{
+    position: absolute center;
+    top: 60px; /*encima */
+  
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 20px;
+    line-height: 10px;
+    color: white;
+}
+
+#textoNombre{
+    
+    position: absolute center;
+    width: 250px;
+    height: 30px;
+    left: 550px;
+    top: 100px;
+    background: white;
+}
+
+
+#correo{
+    position: absolute center;
+    top: 60px; /*encima */
+  
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 20px;
+    line-height: 10px;
+    color: white;
+}
+
+#textoCorreo{
+    
+    position: absolute center;
+    width: 250px;
+    height: 30px;
+    left: 550px;
+    top: 100px;
+    background: white;
+}
+
+#boton{
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left:450px;
+    top: 700px;
+
+    background: #006f65;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: 'Verdana';
+    color:white ;
+
+}
+
+#volverInicio{
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left: 700px;
+    top: 700px;
+
+    background: #006f65;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: 'Verdana';
+    color:white ;
+}
+
+#preventa {
+    position: absolute center;
+    top: 100px; /*encima */
+  
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 30;
+    font-size: 35px;
+    line-height: 10px;
+    color: white;
+}
